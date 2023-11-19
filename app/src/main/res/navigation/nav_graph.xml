@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/gameFragment">
 
+    <fragment
+        android:id="@+id/gameFragment"
+        tools:layout="@layout/fragment_game"
+        android:name="com.m391.game.ui.GameFragment"
+        android:label="GameFragment" />
 </navigation>
