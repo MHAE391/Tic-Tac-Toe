@@ -42,6 +42,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:importantForAccessibility="no"
+                    android:padding="10dp"
                     android:src="@drawable/x" />
             </androidx.cardview.widget.CardView>
 
@@ -115,6 +116,7 @@
             app:layout_constraintDimensionRatio="1:1">
 
             <LinearLayout
+                android:id="@+id/game_bord"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_gravity="top"
@@ -134,6 +136,8 @@
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
                     android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_1_1"
                     tools:ignore="NestedWeights,DuplicateSpeakableTextCheck" />
 
                 <View
@@ -151,7 +155,9 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
-                    android:focusable="true" />
+                    android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_1_2" />
 
                 <View
                     android:layout_width="2dp"
@@ -168,7 +174,9 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
-                    android:focusable="true" />
+                    android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_1_3" />
             </LinearLayout>
 
             <View
@@ -198,6 +206,8 @@
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
                     android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_2_1"
                     tools:ignore="NestedWeights" />
 
                 <View
@@ -214,7 +224,9 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
-                    android:focusable="true" />
+                    android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_2_2" />
 
                 <View
                     android:layout_width="2dp"
@@ -230,7 +242,9 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
-                    android:focusable="true" />
+                    android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_2_3" />
             </LinearLayout>
 
             <View
@@ -260,6 +274,8 @@
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
                     android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_3_1"
                     tools:ignore="NestedWeights" />
 
                 <View
@@ -277,7 +293,9 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
-                    android:focusable="true" />
+                    android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_3_2" />
 
 
                 <View
@@ -295,12 +313,11 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:contentDescription="@string/empty_sell"
-                    android:focusable="true" />
+                    android:focusable="true"
+                    android:padding="10dp"
+                    android:tag="@string/sell_3_3" />
 
             </LinearLayout>
-
-
         </LinearLayout>
-
     </RelativeLayout>
 </layout>

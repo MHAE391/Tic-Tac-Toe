@@ -33,7 +33,18 @@ class TicTacToeViewModel : ViewModel() {
 
     fun getCurrentPlayer(): Player = game.getCurrentPlayer()
 
-    fun getCell(row: Int, col: Int): Player? = game.getCell(row, col)
-
     fun getGameState(): GameState = game.gameState
+
+    fun getWinningList(): List<Pair<Int, Int>> {
+        return game.getWinningCells()
+    }
+
+    fun xWon() {
+        _xScore.postValue(xScore.value!!.plus(1))
+    }
+
+    fun oWon() {
+        _oScore.postValue(_oScore.value!!.plus(1))
+    }
+
 }

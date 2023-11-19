@@ -4,4 +4,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="empty_sell">Empty Sell</string>
     <string name="fasla">-</string>
+    <string name="sell_1_1">Sell 1_1</string>
+    <string name="sell_1_2">Sell 1_2</string>
+    <string name="sell_1_3">Sell 1_3</string>
+    <string name="sell_2_1">Sell 2_1</string>
+    <string name="sell_2_2">Sell 2_2</string>
+    <string name="sell_2_3">Sell 2_3</string>
+    <string name="sell_3_1">Sell 3_1</string>
+    <string name="sell_3_2">Sell 3_2</string>
+    <string name="sell_3_3">Sell 3_3</string>
+
 </resources>
